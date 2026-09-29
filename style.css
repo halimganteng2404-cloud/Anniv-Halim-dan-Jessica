@@ -16,6 +16,14 @@ header {
   margin: 20px;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* ini bikin semua foto rata tengah */
+  gap: 10px;
+  margin: 20px;
+}
+
 .gallery img {
   width: 250px;
   margin: 10px;
